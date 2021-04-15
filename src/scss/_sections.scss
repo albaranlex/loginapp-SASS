@@ -1,0 +1,22 @@
+.container {
+    background-color: #fcfcfc;
+    display: grid;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    grid-template-columns: 47% 6% 47%;
+    grid-template-rows: 1fr;
+    width: 500px;
+    height: 260px;
+    margin: 10% auto;
+  }
+
+.box1  {
+    
+    div {
+    height: 25px;
+    padding: 10px;
+    margin: 25px 25px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: white;
+    }
+}
