@@ -1,38 +1,28 @@
+/* PAGE */
 /* BG COLOR */
 /* TEXT COLOR */
 /* LINE COLOR */
 /* BORDER */
 /* SHADOW */
-body {
-  background: linear-gradient(to left, #ffffff 50%, #f3f0f0 50%);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.box2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .box2 .circle {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #ffffff;
   height: 15px;
   width: 15px;
   padding: 5px;
   font-size: 10px;
   font-weight: 600;
   text-align: center;
-  color: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #00000033;
+  border: 1px solid #00000033;
   border-radius: 100%;
   z-index: 1;
 }
 
 .box2 .long-line {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #00000033;
   height: 180px;
   width: 1px;
   transform: translate(-14px, -2%);
@@ -40,7 +30,7 @@ body {
   margin: 0;
 }
 
-.container {
+.main-container {
   background-color: #fcfcfc;
   display: grid;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -51,13 +41,52 @@ body {
   margin: 10% auto;
 }
 
+/* UPPER LEFT - Social */
 .box1 div {
   height: 25px;
   padding: 10px;
   margin: 25px 25px;
   font-weight: lighter;
   font-size: 15px;
+  color: #ffffff;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Upper Right - Form Field */
+h1 {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 18px;
+  color: #4d4a5b;
+}
+
+/* _remember-me */
+.remember-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.remember-me p {
+  margin-right: 10px;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #4d4a5b;
+}
+
+/* _log-in button */
+button {
+  height: 30px;
+  width: 80px;
+  background-color: #64b1ff;
+  border: none;
   color: white;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 .fb-button,
@@ -88,6 +117,25 @@ body {
   width: 10px;
   margin: 0 10px;
   padding-right: 15px;
+}
+
+/* _textfields */
+.text-container {
+  color: #4d4a5b;
+  background-color: transparent;
+  border-bottom: 1px solid #00000033;
+  margin: 20px 10px;
+  padding-bottom: 5px;
+}
+
+.text-container input {
+  border: none;
+  width: 80%;
+  margin-left: 50px;
+}
+
+.form-logo {
+  border: none;
 }
 
 /*# sourceMappingURL=main.css.map */
